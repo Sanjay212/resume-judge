@@ -1,0 +1,26 @@
+{
+  "job_title": "Senior Product Manager, Payments Operations",
+  "company": "Example Fintech (fictional)",
+  "location": "New York, NY",
+  "sections": {
+    "2_requirements": [
+      "6+ years of product management, with at least 2 on internal operations or back-office platforms.",
+      "Experience in a regulated financial domain such as payments, lending or fund administration.",
+      "Track record of writing requirements, user stories and acceptance criteria with engineering.",
+      "Hands-on use of data (SQL or similar) to find root causes and size problems."
+    ],
+    "3_job_responsibilities": [
+      "Own the roadmap for reconciliation and exception-handling tools used by Operations.",
+      "Partner with Compliance and Risk to ship controls without slowing payouts.",
+      "Coordinate UAT and launch readiness across Operations, Finance and Engineering."
+    ],
+    "4_preferred_qualifications": [
+      "Experience applying LLMs or automation to manual operational work."
+    ],
+    "8_keywords": {
+      "requirements": {"Product Management": 2, "Payments": 1, "Lending": 1, "User Stories": 1, "Acceptance Criteria": 1, "SQL": 1, "Root Cause": 1},
+      "job_responsibilities": {"Roadmap": 1, "Reconciliation": 1, "Compliance": 1, "Risk": 1, "UAT": 1},
+      "preferred_qualifications": {"LLMs": 1, "Automation": 1}
+    }
+  }
+}

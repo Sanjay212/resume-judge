@@ -1,0 +1,312 @@
+{
+ "rubric": "JUDGE v1 (2026-10-21)",
+ "model": "claude-opus-5-5",
+ "items_fingerprint": "334ecab56238",
+ "posting": {
+  "company": "Example Fintech (fictional)",
+  "title": "Senior Product Manager, Payments Operations"
+ },
+ "items": [
+  {
+   "id": "j0_0",
+   "section": "Requirements",
+   "text": "6+ years of product management, with at least 2 on internal operations or back-office platforms."
+  },
+  {
+   "id": "j0_1",
+   "section": "Requirements",
+   "text": "Experience in a regulated financial domain such as payments, lending or fund administration."
+  },
+  {
+   "id": "j0_2",
+   "section": "Requirements",
+   "text": "Track record of writing requirements, user stories and acceptance criteria with engineering."
+  },
+  {
+   "id": "j0_3",
+   "section": "Requirements",
+   "text": "Hands-on use of data (SQL or similar) to find root causes and size problems."
+  },
+  {
+   "id": "j1_0",
+   "section": "Job responsibilities",
+   "text": "Own the roadmap for reconciliation and exception-handling tools used by Operations."
+  },
+  {
+   "id": "j1_1",
+   "section": "Job responsibilities",
+   "text": "Partner with Compliance and Risk to ship controls without slowing payouts."
+  },
+  {
+   "id": "j1_2",
+   "section": "Job responsibilities",
+   "text": "Coordinate UAT and launch readiness across Operations, Finance and Engineering."
+  },
+  {
+   "id": "j2_0",
+   "section": "Preferred",
+   "text": "Experience applying LLMs or automation to manual operational work."
+  }
+ ],
+ "versions": {
+  "before": {
+   "score": {
+    "match_pct": 31,
+    "items": 8,
+    "strong": 0,
+    "partial": 4,
+    "weak": 2,
+    "gaps": [
+     "j1_1",
+     "j2_0"
+    ],
+    "unused_bullets": [
+     "c0_2"
+    ]
+   },
+   "keywords": {
+    "placed": [
+     "Lending",
+     "Roadmap"
+    ],
+    "skills_only": [
+     "Product Management"
+    ],
+    "missing": [
+     "Acceptance Criteria",
+     "Automation",
+     "Compliance",
+     "LLMs",
+     "Payments",
+     "Reconciliation",
+     "Risk",
+     "Root Cause",
+     "SQL",
+     "UAT",
+     "User Stories"
+    ],
+    "counts": {
+     "placed": 2,
+     "skills_only": 1,
+     "missing": 11
+    }
+   },
+   "rules": {
+    "word_count": 59,
+    "over_budget": false,
+    "repeated_numbers": {},
+    "repeated_single_use": {},
+    "out_of_order": [],
+    "duplicate_bullets": [],
+    "skills_without_bullet": [
+     "agile",
+     "Excel"
+    ],
+    "keyword_echo": [],
+    "passes": true
+   },
+   "links": [
+    {
+     "j": "j0_0",
+     "c": "c0_0",
+     "s": "p",
+     "why": "\"Responsible for the product roadmap\"; PM 2019-2024 is about 5 years, with no internal-ops focus shown."
+    },
+    {
+     "j": "j0_0",
+     "c": "c1_0",
+     "s": "w",
+     "why": "Business Analyst 2014-2019, \"Gathered requirements\"; adjacent, not product management."
+    },
+    {
+     "j": "j0_1",
+     "c": "c0_1",
+     "s": "p",
+     "why": "\"new features for the lending platform\"; lending domain, but the work is vague."
+    },
+    {
+     "j": "j0_1",
+     "c": "c1_0",
+     "s": "p",
+     "why": "Contoso Fund Services employer; bullet \"Gathered requirements\" is generic."
+    },
+    {
+     "j": "j0_2",
+     "c": "c1_0",
+     "s": "p",
+     "why": "\"Gathered requirements from business users\"; no user stories or acceptance criteria."
+    },
+    {
+     "j": "j0_2",
+     "c": "c0_1",
+     "s": "w",
+     "why": "\"Worked with engineering on new features\"; collaboration only implied."
+    },
+    {
+     "j": "j0_3",
+     "c": "c1_2",
+     "s": "w",
+     "why": "\"Prepared reports for management\"; no SQL or root-cause analysis shown."
+    },
+    {
+     "j": "j1_0",
+     "c": "c0_0",
+     "s": "w",
+     "why": "\"product roadmap\" is generic, not reconciliation or exception tools."
+    },
+    {
+     "j": "j1_2",
+     "c": "c1_1",
+     "s": "p",
+     "why": "\"Supported testing activities before releases\"; supporting role, no cross-team launch readiness."
+    }
+   ]
+  },
+  "after": {
+   "score": {
+    "match_pct": 94,
+    "items": 8,
+    "strong": 7,
+    "partial": 1,
+    "weak": 0,
+    "gaps": [],
+    "unused_bullets": []
+   },
+   "keywords": {
+    "placed": [
+     "Acceptance Criteria",
+     "Compliance",
+     "LLMs",
+     "Lending",
+     "Payments",
+     "Reconciliation",
+     "Risk",
+     "Roadmap",
+     "SQL",
+     "UAT",
+     "User Stories"
+    ],
+    "skills_only": [
+     "Automation",
+     "Product Management"
+    ],
+    "missing": [
+     "Root Cause"
+    ],
+    "counts": {
+     "placed": 11,
+     "skills_only": 2,
+     "missing": 1
+    }
+   },
+   "rules": {
+    "word_count": 129,
+    "over_budget": false,
+    "repeated_numbers": {},
+    "repeated_single_use": {},
+    "out_of_order": [],
+    "duplicate_bullets": [],
+    "skills_without_bullet": [
+     "product management",
+     "UAT",
+     "SQL",
+     "LLM automation"
+    ],
+    "keyword_echo": [],
+    "passes": true
+   },
+   "links": [
+    {
+     "j": "j0_0",
+     "c": "c0_0",
+     "s": "p",
+     "why": "\"Owned the roadmap\" in Operations Platform PM role; 2019-2024 is about 5 PM years, short of 6."
+    },
+    {
+     "j": "j0_0",
+     "c": "c1_0",
+     "s": "w",
+     "why": "BA role 2014-2019 \"Wrote user stories\"; adjacent, not PM title."
+    },
+    {
+     "j": "j0_1",
+     "c": "c0_3",
+     "s": "s",
+     "why": "\"SQL on payment and ledger tables to trace failed payouts\" at a lender."
+    },
+    {
+     "j": "j0_1",
+     "c": "c1_0",
+     "s": "s",
+     "why": "\"cash reconciliation module of a fund-accounting platform\""
+    },
+    {
+     "j": "j0_1",
+     "c": "c0_1",
+     "s": "p",
+     "why": "\"Compliance sign-off on every rule\" shows regulated-environment work."
+    },
+    {
+     "j": "j0_2",
+     "c": "c1_0",
+     "s": "s",
+     "why": "\"Wrote user stories with acceptance criteria\""
+    },
+    {
+     "j": "j0_3",
+     "c": "c0_3",
+     "s": "s",
+     "why": "\"Used SQL... to trace failed payouts to a timezone cutoff bug\""
+    },
+    {
+     "j": "j1_0",
+     "c": "c0_0",
+     "s": "s",
+     "why": "\"Owned the roadmap for the loan-servicing exception queue used by... Operations\""
+    },
+    {
+     "j": "j1_0",
+     "c": "c1_0",
+     "s": "p",
+     "why": "\"cash reconciliation module\"; wrote stories rather than owning the roadmap."
+    },
+    {
+     "j": "j1_0",
+     "c": "c1_1",
+     "s": "p",
+     "why": "\"Mapped current- and future-state reconciliation processes with Operations\""
+    },
+    {
+     "j": "j1_1",
+     "c": "c0_1",
+     "s": "s",
+     "why": "\"routed routine exceptions automatically, with Compliance sign-off on every rule\""
+    },
+    {
+     "j": "j1_1",
+     "c": "c1_1",
+     "s": "p",
+     "why": "\"reconciliation processes with Operations and Risk\"; no shipped controls."
+    },
+    {
+     "j": "j1_2",
+     "c": "c0_2",
+     "s": "s",
+     "why": "\"Ran UAT and launch readiness with Operations, Finance and Engineering\""
+    },
+    {
+     "j": "j1_2",
+     "c": "c1_2",
+     "s": "p",
+     "why": "\"Coordinated parallel testing of the new reconciliation engine\""
+    },
+    {
+     "j": "j2_0",
+     "c": "c0_1",
+     "s": "s",
+     "why": "\"Shipped a rules-plus-LLM triage step that routed routine exceptions automatically\""
+    }
+   ]
+  }
+ }
+}

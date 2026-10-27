@@ -1,0 +1,16 @@
+{
+  "summary": "Operations-platform product manager in regulated lending and fund administration who turns manual back-office work into tested, controlled tools.",
+  "jobs": [
+    ["Northwind Lending | Product Manager, Operations Platform | 2019 - 2024", [
+      "Owned the roadmap for the loan-servicing exception queue used by a 40-person Operations team.",
+      "Shipped a rules-plus-LLM triage step that routed routine exceptions automatically, with Compliance sign-off on every rule.",
+      "Ran UAT and launch readiness with Operations, Finance and Engineering for each release.",
+      "Used SQL on payment and ledger tables to trace failed payouts to a timezone cutoff bug."]],
+    ["Contoso Fund Services | Business Analyst | 2014 - 2019", [
+      "Wrote user stories with acceptance criteria for the cash reconciliation module of a fund-accounting platform.",
+      "Mapped current- and future-state reconciliation processes with Operations and Risk.",
+      "Coordinated parallel testing of the new reconciliation engine against the legacy ledger."]]
+  ],
+  "skills": "product management; user stories; acceptance criteria; UAT; SQL; reconciliation; LLM automation",
+  "edu": ["B.S. Economics, State University"]
+}
